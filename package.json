@@ -4,8 +4,8 @@
   "description": "Eslit, husky, and testing dependency loader",
   "main": "index.js",
   "scripts": {
-    "test": "nyc mocha --exit",
-    "do:it": "./sh.sh doit"
+    "install": "./node_modules/.bin/npmAddScript -k \"do:it\" -v \"./sh.sh doit\"",
+    "test": "nyc mocha --exit"
   },
   "repository": {
     "type": "git",
@@ -20,7 +20,9 @@
     "url": "https://github.com/desoares1975/imex-linter/issues"
   },
   "homepage": "https://github.com/desoares1975/imex-linter#readme",
-  "dependencies": {},
+  "dependencies": {
+    "npm-add-script": "^1.1.0"
+  },
   "devDependencies": {
     "eslint": "^7.4.0",
     "husky": "^4.2.5",

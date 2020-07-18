@@ -1,9 +1,8 @@
 #!/bin/bash
 
-mkdir ./test
+mkdir test
 
-cp ./files/** ./test
-
+cp -R files/. test/
 npm i -D eslint husky lint-staged
 
-echo 'OKOKOK'
+echo All files copied; All packacages installed

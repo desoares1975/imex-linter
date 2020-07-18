@@ -1,0 +1,8 @@
+{
+  "Direction": "down",
+  "Conversion": "Complete",
+  "Version": "v1.0.20170724",
+  "scripts": {},
+  "Files": "${file_list}",
+  "scripts": "${file_list}"
+}
