@@ -1,0 +1,6 @@
+  {
+    "reporter spec": true,
+    "recursive": true,
+    "require": "test/globalSetup.js",
+    "timeout": 5000
+  }

@@ -1,0 +1,56 @@
+{
+  "env": {
+    "commonjs": true,
+    "es2020": true,
+    "node": true,
+    "mocha": true
+  },
+  "globals": {
+    "config": true
+  },
+  "extends": [
+    "airbnb-base"
+  ],
+  "plugins": [
+    "prettier"
+  ],
+  "parserOptions": {
+    "ecmaVersion": 11
+  },
+  "rules": {
+    "prettier/prettier": [
+      "error",
+      {
+        "arrowParens": "avoid",
+        "semi": false,
+        "singleQuote": true,
+        "trailingComma": "none",
+        "printWidth": 120
+      }
+    ],
+    "comma-dangle": [
+      "error",
+      "never"
+    ],
+    "max-len": [
+      2,
+      120
+    ],
+    "no-plusplus": "off",
+    "object-curly-newline": "off",
+    "arrow-parens": "off",
+    "no-console": 1,
+    "no-underscore-dangle": 0,
+    "no-unused-vars": [
+      "error",
+      {
+        "argsIgnorePattern": "next",
+        "varsIgnorePattern": "debug"
+      }
+    ],
+    "semi": [
+      2,
+      "never"
+    ]
+  }
+}
