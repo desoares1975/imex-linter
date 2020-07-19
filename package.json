@@ -1,11 +1,12 @@
 {
   "name": "imex-linter",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "description": "Eslit, husky, and testing dependency loader",
   "main": "index.js",
   "scripts": {
     "install": "node ./src/index.js",
-    "test": "nyc mocha --exit"
+    "test": "nyc mocha --exit",
+    "do:it": "./node_modules/immex-linter/sh.sh doit"
   },
   "repository": {
     "type": "git",
