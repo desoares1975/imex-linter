@@ -4,7 +4,6 @@
   "description": "Eslit, husky, and testing dependency loader",
   "main": "index.js",
   "scripts": {
-    "install": "node ./src/index.js",
     "test": "nyc mocha --exit"
   },
   "repository": {
