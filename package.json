@@ -4,7 +4,7 @@
   "description": "Eslit, husky, and testing dependency loader",
   "main": "index.js",
   "scripts": {
-    "install": "cd ../ && ./node_modules/.bin/npmAddScript -k \"do:it\" -v \"./sh.sh doit\" && echo AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+    "install": "./node_modules/.bin/npmAddScript -k \"do:it\" -v \"./sh.sh doit\"",
     "test": "nyc mocha --exit"
   },
   "repository": {
